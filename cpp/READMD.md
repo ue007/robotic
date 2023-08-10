@@ -1,9 +1,9 @@
 ## build a.out
 ```
-g++ helloworld.cpp
+g++ hello_world.cpp
 ```
 
-## build helloworld
+## build hello_world
 
 ```
 g++ hello_world.cpp -o ./build/hello_world
