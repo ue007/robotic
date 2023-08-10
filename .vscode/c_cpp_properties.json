@@ -4,7 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/"
+                "/usr/local/",
+                "/usr/include/",
+                "/opt/ros/rolling/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
