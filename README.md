@@ -1,7 +1,3 @@
-# robotic
-https://github.com/onlytailei/CppRobotics
-
-
 # cpp
 
 https://github.com/fffaraz/awesome-cpp
@@ -15,5 +11,25 @@ https://github.com/salmer/CppDeveloperRoadmap
 https://github.com/tangtangcoding/C-CppLearning
 
 
+# robotic
+https://github.com/onlytailei/CppRobotics
 
-# ros
+## linux
+https://github.com/torvalds/linux
+https://github.com/dibingfa/flash-linux0.11-talk
+https://github.com/jaywcjlove/linux-command
+https://github.com/judasn/Linux-Tutorial
+https://github.com/luong-komorebi/Awesome-Linux-Software
+
+
+## ros
+https://www.ros.org/
+http://wiki.ros.org/cn
+https://b23.tv/6uQf5f
+https://docs.ros2.org/latest/api/rclcpp/
+https://github.com/sychaichangkun/ROS-Academy-for-Beginners
+https://www.hadabot.com/learn-ros2-intro-nodes.html?step=ros2-node-how-the-code-works-cpp
+
+## opencv
+https://opencv.org/
+
