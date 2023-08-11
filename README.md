@@ -12,6 +12,8 @@ https://github.com/tangtangcoding/C-CppLearning
 
 https://learn.microsoft.com/zh-cn/cpp/?view=msvc-170
 
+https://www.geeksforgeeks.org/c-plus-plus/?ref=lbp
+
 
 # robotic
 https://github.com/onlytailei/CppRobotics

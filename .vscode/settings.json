@@ -112,7 +112,8 @@
         "stdfloat": "cpp",
         "stop_token": "cpp",
         "syncstream": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "strstream": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
