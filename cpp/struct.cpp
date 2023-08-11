@@ -4,16 +4,18 @@
 using namespace std;
 
 // 声明一个结构体类型 Books
-struct Books {
+struct Books
+{
   char title[50];
   char author[50];
   char subject[100];
   int book_id;
 };
 
-int main() {
-  Books Book1;  // 定义结构体类型 Books 的变量 Book1
-  Books Book2;  // 定义结构体类型 Books 的变量 Book2
+int main()
+{
+  Books Book1; // 定义结构体类型 Books 的变量 Book1
+  Books Book2; // 定义结构体类型 Books 的变量 Book2
 
   // Book1 详述
   strcpy(Book1.title, "C++ 教程");

@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int max(int, int);
 void primer();
 void quote();
