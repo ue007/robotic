@@ -39,4 +39,10 @@ https://www.hadabot.com/learn-ros2-intro-nodes.html?step=ros2-node-how-the-code-
 
 ## opencv
 https://opencv.org/
+https://github.com/opencv/opencv
+https://www.learnopencv.com/
+https://github.com/spmallick/learnopencv
+https://www.cnblogs.com/mikewolf2002/category/351010.html
+https://zhuanlan.zhihu.com/p/449778377
+https://github.com/JimmyHHua/opencv_tutorials
 
