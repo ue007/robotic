@@ -14,6 +14,8 @@ https://learn.microsoft.com/zh-cn/cpp/?view=msvc-170
 
 https://www.geeksforgeeks.org/c-plus-plus/?ref=lbp
 
+https://github.com/Light-City/CPlusPlusThings
+
 
 # robotic
 https://github.com/onlytailei/CppRobotics
