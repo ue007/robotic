@@ -26,6 +26,7 @@ https://github.com/dibingfa/flash-linux0.11-talk
 https://github.com/jaywcjlove/linux-command
 https://github.com/judasn/Linux-Tutorial
 https://github.com/luong-komorebi/Awesome-Linux-Software
+https://zhuanlan.zhihu.com/p/420311740
 
 
 ## ros
