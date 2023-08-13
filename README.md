@@ -45,4 +45,5 @@ https://github.com/spmallick/learnopencv
 https://www.cnblogs.com/mikewolf2002/category/351010.html
 https://zhuanlan.zhihu.com/p/449778377
 https://github.com/JimmyHHua/opencv_tutorials
-
+https://www.yuque.com/apachecn/opencv-doc-zh
+https://docs.opencv.org/4.2.0/index.html
