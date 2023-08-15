@@ -77,7 +77,9 @@ ldconfig
 - Submodule '3rdparty/googletest' (https://github.com/google/googletest.git) registered for path '3rdparty/googletest'
 
 
-# Graphic
+# Graphics
+图形部分详细见另外一个仓库。
+- https://github.com/ue007?tab=repositories
 ## Pangolin
 - https://github.com/stevenlovegrove/Pangolin
 
