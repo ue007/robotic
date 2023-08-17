@@ -59,6 +59,8 @@
 - https://devdocs.io/eigen3/namespaceeigen
 - https://github.com/stevenlovegrove/Pangolin
 - https://github.com/strasdat/Sophus
+- https://github.com/PointCloudLibrary/pcl
+
 ```
 * compile and install pangolin
 cd [path-to-pangolin]
@@ -77,12 +79,11 @@ ldconfig
 - Submodule '3rdparty/googletest' (https://github.com/google/googletest.git) registered for path '3rdparty/googletest'
 
 
+
+
 # Graphics
 图形部分详细见另外一个仓库。
 - https://github.com/ue007/graphics
-## Pangolin
-- https://github.com/stevenlovegrove/Pangolin
-
 
 # 深度学习
 
