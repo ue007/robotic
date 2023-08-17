@@ -11,6 +11,7 @@
 - https://github.com/Light-City/CPlusPlusThings
 
 ## python
+todo
 
 ## linux
 - https://github.com/torvalds/linux
@@ -55,12 +56,24 @@
 - 链接：https://pan.baidu.com/s/1UOz3AhNJu7QJdiJBnhy05Q?pwd=hweq 
 提取码：hweq 
 --来自百度网盘超级会员V6的分享
+
+- https://github.com/stevenlovegrove/Pangolin
+
+
+##  pcl
+
+- https://github.com/PointCloudLibrary/pcl
+- https://github.com/HuangCongQing/pcl-learning
+- https://zhuanlan.zhihu.com/p/457487902
+- https://zhuanlan.zhihu.com/p/574944275
+
+## math
 - https://eigen.tuxfamily.org/index.php?title=Main_Page 
 - https://devdocs.io/eigen3/namespaceeigen
-- https://github.com/stevenlovegrove/Pangolin
 - https://github.com/strasdat/Sophus
-- https://github.com/PointCloudLibrary/pcl
 
+
+## compile and install by source cpp code 
 ```
 * compile and install pangolin
 cd [path-to-pangolin]
@@ -71,20 +84,21 @@ make
 sudo make install 
 ldconfig
 ```
-- Submodule '3rdparty/DBoW3' (https://github.com/rmsalinas/DBow3) registered for path '3rdparty/DBoW3'
-- Submodule '3rdparty/Pangolin' (https://github.com/stevenlovegrove/Pangolin) registered for path '3rdparty/Pangolin'
-- Submodule '3rdparty/Sophus' (https://github.com/strasdat/Sophus) registered for path '3rdparty/Sophus'
-- Submodule '3rdparty/ceres-solver' (https://github.com/ceres-solver/ceres-solver) registered for path '3rdparty/ceres-solver'
-- Submodule '3rdparty/g2o' (https://github.com/RainerKuemmerle/g2o) registered for path '3rdparty/g2o'
-- Submodule '3rdparty/googletest' (https://github.com/google/googletest.git) registered for path '3rdparty/googletest'
+
+## Depend on
+- https://github.com/rmsalinas/DBow3
+- https://github.com/stevenlovegrove/Pangolin
+- https://github.com/strasdat/Sophus
+- https://github.com/ceres-solver/ceres-solver
+- https://github.com/RainerKuemmerle/g2o
+- https://github.com/google/googletest.git
 
 
 
-
+# 深度学习
+todo
 # Graphics
 图形部分详细见另外一个仓库。
 - https://github.com/ue007/graphics
-
-# 深度学习
 
 
