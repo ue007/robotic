@@ -19,8 +19,13 @@
 - https://github.com/judasn/Linux-Tutorial
 - https://github.com/luong-komorebi/Awesome-Linux-Software
 - https://zhuanlan.zhihu.com/p/420311740
-- cmake http://www.cmake.org
 - https://github.com/fmtlib/fmt
+
+## make 
+- https://www.ruanyifeng.com/blog/2015/02/make.html
+- https://www.gnu.org/software/make/manual/make.html
+- https://gist.github.com/isaacs/62a2d1825d04437c6f08
+- - cmake http://www.cmake.org
 
 
 # robotic
