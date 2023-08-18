@@ -10,3 +10,6 @@
 [submodule "3rdparty/fmt"]
 	path = 3rdparty/fmt
 	url = https://github.com/fmtlib/fmt.git
+[submodule "3rdparty/ceres-solver"]
+	path = 3rdparty/ceres-solver
+	url = https://github.com/ceres-solver/ceres-solver.git
