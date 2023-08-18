@@ -10,8 +10,8 @@
 using namespace std;
 
 // global variables
-string first_file = "./1.png";
-string second_file = "./2.png";
+string first_file = "../1.png";
+string second_file = "../2.png";
 
 // 32 bit unsigned int, will have 8, 8x32=256
 typedef vector<uint32_t> DescType; // Descriptor type
@@ -397,10 +397,10 @@ void ComputeORB(const cv::Mat &img, vector<cv::KeyPoint> &keypoints, vector<Desc
 void BfMatch(const vector<DescType> &desc1, const vector<DescType> &desc2, vector<cv::DMatch> &matches) {
   const int d_max = 40;
 
-  for (size_t i1 = 0; i1 < desc1.size(); ++i1) {
+  for (int i1 = 0; i1 < desc1.size(); ++i1) {
     if (desc1[i1].empty()) continue;
     cv::DMatch m{i1, 0, 256};
-    for (size_t i2 = 0; i2 < desc2.size(); ++i2) {
+    for (int i2 = 0; i2 < desc2.size(); ++i2) {
       if (desc2[i2].empty()) continue;
       int distance = 0;
       for (int k = 0; k < 8; k++) {

@@ -13,6 +13,8 @@
 #include <g2o/solvers/dense/linear_solver_dense.h>
 #include <sophus/se3.hpp>
 #include <chrono>
+#include "opencv2/imgcodecs/legacy/constants_c.h"
+
 
 using namespace std;
 using namespace cv;
@@ -51,8 +53,8 @@ int main(int argc, char **argv) {
     return 1;
   }
   //-- 读取图像
-  Mat img_1 = imread(argv[1], CV_LOAD_IMAGE_COLOR);
-  Mat img_2 = imread(argv[2], CV_LOAD_IMAGE_COLOR);
+  Mat img_1 = imread(argv[1], IMREAD_UNCHANGED);
+  Mat img_2 = imread(argv[2], IMREAD_UNCHANGED);
   assert(img_1.data && img_2.data && "Can not load images!");
 
   vector<KeyPoint> keypoints_1, keypoints_2;
@@ -315,7 +317,7 @@ void bundleAdjustmentG2O(
   typedef g2o::LinearSolverDense<BlockSolverType::PoseMatrixType> LinearSolverType; // 线性求解器类型
   // 梯度下降方法，可以从GN, LM, DogLeg 中选
   auto solver = new g2o::OptimizationAlgorithmGaussNewton(
-    g2o::make_unique<BlockSolverType>(g2o::make_unique<LinearSolverType>()));
+    make_unique<BlockSolverType>(make_unique<LinearSolverType>()));
   g2o::SparseOptimizer optimizer;     // 图模型
   optimizer.setAlgorithm(solver);   // 设置求解器
   optimizer.setVerbose(true);       // 打开调试输出
