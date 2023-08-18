@@ -3,6 +3,7 @@ project(ch6)
 
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_FLAGS "-std=c++14 -O3")
+set(CMAKE_CXX_STANDARD 17)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 
@@ -19,7 +20,7 @@ find_package(G2O REQUIRED)
 include_directories(${G2O_INCLUDE_DIRS})
 
 # Eigen
-include_directories("/usr/include/eigen3")
+include_directories("/usr/local/include/eigen3")
 
 add_executable(gaussNewton gaussNewton.cpp)
 target_link_libraries(gaussNewton ${OpenCV_LIBS})
