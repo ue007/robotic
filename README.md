@@ -103,7 +103,10 @@ ldconfig
 
 
 # 深度学习
-todo
+## python
+- https://www.python.org/
+## pytorch
+- https://pytorch.org/
 # Graphics
 图形部分详细见另外一个仓库。
 - https://github.com/ue007/graphics
