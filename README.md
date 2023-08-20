@@ -107,6 +107,9 @@ ldconfig
 - https://www.python.org/
 ## pytorch
 - https://pytorch.org/
+
+## Detection
+- https://github.com/dongdonghy/Detection-PyTorch-Notebook
 # Graphics
 图形部分详细见另外一个仓库。
 - https://github.com/ue007/graphics
