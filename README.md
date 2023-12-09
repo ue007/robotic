@@ -34,6 +34,9 @@ todo
 - https://docs.ros2.org/latest/api/rclcpp/
 - https://github.com/sychaichangkun/ROS-Academy-for-Beginners
 - https://www.hadabot.com/learn-ros2-intro-nodes.html?step=ros2-node-how-the-code-works-cpp
+- https://github.com/fkromer/awesome-ros2
+- https://github.com/alsora/ros2-code-examples
+
 
 # 计算机视觉
 ## opencv
