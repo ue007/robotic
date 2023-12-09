@@ -20,8 +20,14 @@ todo
 - https://github.com/judasn/Linux-Tutorial
 - https://github.com/luong-komorebi/Awesome-Linux-Software
 - https://zhuanlan.zhihu.com/p/420311740
-- cmake http://www.cmake.org
 - https://github.com/fmtlib/fmt
+- 
+
+## make 
+- https://www.ruanyifeng.com/blog/2015/02/make.html
+- https://www.gnu.org/software/make/manual/make.html
+- https://gist.github.com/isaacs/62a2d1825d04437c6f08
+- - cmake http://www.cmake.org
 
 
 # robotic
@@ -61,6 +67,7 @@ todo
 --来自百度网盘超级会员V6的分享
 
 - https://github.com/stevenlovegrove/Pangolin
+- https://github.com/chengfzy/SLAMStudy
 
 
 ##  pcl
@@ -99,7 +106,13 @@ ldconfig
 
 
 # 深度学习
-todo
+## python
+- https://www.python.org/
+## pytorch
+- https://pytorch.org/
+
+## Detection
+- https://github.com/dongdonghy/Detection-PyTorch-Notebook
 # Graphics
 图形部分详细见另外一个仓库。
 - https://github.com/ue007/graphics

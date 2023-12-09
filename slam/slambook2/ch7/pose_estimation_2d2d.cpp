@@ -4,6 +4,8 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 // #include "extra.h" // use this if in OpenCV2
+#include "opencv2/imgcodecs/legacy/constants_c.h"
+
 
 using namespace std;
 using namespace cv;
@@ -140,7 +142,7 @@ void pose_estimation_2d2d(std::vector<KeyPoint> keypoints_1,
 
   //-- 计算基础矩阵
   Mat fundamental_matrix;
-  fundamental_matrix = findFundamentalMat(points1, points2, CV_FM_8POINT);
+  fundamental_matrix = findFundamentalMat(points1, points2, FM_8POINT);
   cout << "fundamental_matrix is " << endl << fundamental_matrix << endl;
 
   //-- 计算本质矩阵
